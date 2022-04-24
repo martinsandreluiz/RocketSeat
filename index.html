@@ -1,0 +1,98 @@
+<h1> O Título </h1>
+
+<h1>Um título</h1>
+um texto 
+
+Comentário:   <!---->
+<!--
+Comentário: não aparece no preview
+tag  
+
+HTML
+HyperText Markup Language
+-->
+<!-- Elementos Vazios - não têm conteúdo; só atributos-->
+
+<img src="" alt="">
+    <img src="imagem.png" alt="texto alternativo">
+
+<!-- Atributo Booleano (True or False)-->
+<input type="text">
+<input type="text" disabled>  <!-- aqui disabled é atr bool-->
+
+<a href="https://google.com" title="Isn't">link</a>
+
+<!-- Atributos Globais. Ex:
+    - class
+    //posso colocar mais de 1 elemento de mesma classe
+    - contenteditable
+
+    - data-*
+    // para expansão de atrib. em JS
+    - hidden
+    - id
+    // não é pra repetir o id; para repetir uso o class
+    - style
+    // não muito usado, pois fazemos no CSS
+    - tabindex
+    - title
+-->    
+
+<div class= "carrinho" id="cart1" style="color:red" tabindex="3">
+    outros elementos 
+</div>
+
+<div class= "carrinho" contenteditable="true" id="cart2" tabindex="1">
+    posso agora editar esse conteudo 
+</div>
+
+<div class= "carrinho" tabindex="2" title="Define um título" >
+    outros elementos 
+</div>
+
+<div class= "carrinho" hidden >         
+    outros elementos 
+</div>
+
+<!--
+Aninhamento de Tags - atenção ao fluxo e à hierarquia
+<p> <em>    </em>  <str>  </str>     <b>   </b>
+</p>
+-->
+
+<div>
+    <p>Vou escrever <em>com ênfase (itálico)</em> um paragrafo.<br>
+        Ele vai estar em <strong>negrito</strong>
+    </p>
+</div>
+
+<p>Esse é um novo paragrafo</p>
+
+<p> Verificando: <a href="http://google.com">link2</a> A tag de paragrafo <p>quebra automaticamente a linha</p>
+    <br>Assim como o break
+</p>  
+
+<p>Lorem ipsum dolor sit <em>amet consectetur adipisicing elit</em>. Ducimus aspernatur quos voluptates, fugiat repellat asperiores eum nobis reiciendis ea <strong>dignissimos totam, ipsam, iusto</strong> neque expedita numquam sunt <b>consectetur fugit </b> ipsum.
+</p>
+
+<p> Lorem ipsum dolor, sit amet ,<strong>consectetur</strong> adipisicing elit. Voluptate <b>dolor</b> officia autem consequuntur vitae corrupti deserunt. <em>Rerum provident necessitatibus</em> consectetur? At eligendi repellendus rem <strong>odio nam omnis</strong>, numquam sequi possimus.</p>
+<a href="http://google.com">Saiba mais"></a>
+
+<p>Para quebrar linhas 
+    no HTML devo usar <br> e dessa forma <br> garanto que a linha será 
+    quebrada. E <br> para dar espaços uso &nbsp; quantas vezes eu &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; quiser. 
+
+    Caracteres Reservados   
+    &gt; maior que
+    &lt; menor que
+    &quot; aspas duplas &quot;
+    &amp; e comercial
+    &apos; aspas simples &apos;
+
+</p>
+
+
+
+
+
+

@@ -1,0 +1,259 @@
+<!--
+    apenas com ! o emmet já disponibiliza uma estrutura padrão
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Anatomia</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>ANATOMIA DO DOCUMENTO</title>
+
+    </head>
+    
+    
+    <body>
+
+            <h1>Título - Minha Página</h1>
+        
+            <h2>Meu Crescimento</h2>
+
+            <h3>Infância</h3>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+
+            <h3>Adolescência</h3>
+            <p> Perferendis, eaque tenetur distinctio fugiat repudiandae, totam, officiis sint repellat at delectus magnam nisi error voluptas! Minus maiores reiciendis doloribus dolorem fugiat.
+            </p>
+        
+            <h2>Meu Trabalho</h2>
+            outro texto
+
+            <h2>Meus Hobbies</h2>
+            outro texto <br><br><br>
+
+            <a href="">Saiba mais...</a>
+            
+            <!--LISTAS : 
+                - Ordenadas e 
+                - Não ordenadas
+
+            -->
+            
+        <h1>Suco Detox</h1>
+            <h2>Ingredientes:</h2>
+
+
+        <ol>
+            <li>3 folhas de couve;</li> 
+            <li>1 laranjas;</li>
+            <li>1 pedacinho gengibre;</li>
+            <li>300 ml de água;</li>
+            <li>Adoçante a gosto;</li>
+            <li>Gelo a gosto.</li>
+        
+        </ol> 
+
+        <ul>
+            <li>3 folhas de couve;</li> 
+            <li>1 laranjas;</li>
+            <li>1 pedacinho gengibre;</li>
+            <li>300 ml de água;</li>
+            <li>Adoçante a gosto;</li>
+            <li>Gelo a gosto.</li>
+        
+        </ul> 
+        <!-- CITAÇÕES  com 
+        <blockquote> 
+        <cite>
+        q
+        -->
+
+        <blockquote cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote">
+            O <strong>Elemento HTML <code>&lt;blockquote&gt;</code> </strong>(ou <em>HTML Block Quotation Element</em>) indica que um texto externo foi citado, por exemplo : 
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor voluptatem ratione fugit corrupti maxime delectus ducimus? Voluptatum id repellat, nisi expedita quas, quibusdam blanditiis qui nam nihil animi similique sunt.</p>
+        </blockquote>
+
+        <p>
+            De acordo com <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote"><cite>página MDN blockquote</cite></a> 
+        </p>
+
+        <p>
+            <q cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q">
+                <cite>Usamos &lt;q&gt; para fazer uma simples citação</cite>
+            </q>
+        </p>
+
+        <p>
+            O elemento quote <code>&lt;q&gt;</code> é 
+            <q cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q">
+                usado para citações curtas que não precisam de parágrafos ou quebras de linha.
+            </q> <br>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q" target="_blank">
+            <cite>MDN q page</cite></a>.
+        </p>
+            
+         <!---ABREVIAÇÕES
+            <abbr title="significado">
+                conteudo
+            </abbr>
+        -->   
+        <p>
+            Usamos <abbr title="HyperText Markup Language">
+                HTML </abbr> para estruturarmos nosso documentos da web.
+        </p>
+            <br>
+        
+            <!--DETALHES DE CONTATO - apenas do autor da webpage
+                <adress> 
+
+                </adress>
+
+            -->
+            <address>
+                <p>André Martins  <br> 
+                    <strong> Rua Diego da Silveira Belegoti, 28 Sabugo <br>Paracambi, RJ</strong> 
+                </p>
+            </address>
+
+            <h2>Glossário (Listas de Descrição)</h2>
+            <dl>
+                <dt>Hypertext</dt>
+                <dd>É um hipertexto com possibilidades...</dd>
+
+                <dt>Markup</dt>
+                <dd>Marcação do texto</dd>
+                
+                <dt>Language</dt>  
+                <dd>Linguagem com Semântica e Sintaxe</dd>
+               
+            </dl>          
+        </p>
+
+            <!--Para representar códigos usamos as tags:
+            <code></code> — muda a cor do conteúdo para representar código.
+        
+            <pre></pre> — tag para criar um bloco de código, mantém os espaços em branco
+            --> 
+
+            <h2>Representação de códigos</h2>
+            <code>
+                            document.querySelector("body")
+            </code>
+            <pre>
+                <code>       document.
+                querySelector("body")
+                &lt;pre&gt;
+                <xmp> <pre></xmp>   <!-- <xmp> em desuso-->
+                </code>       
+            </pre>
+
+           <!--  Elementos Genéricos
+            <div></div> — tag usada para agrupar conteúdo.
+            <span></span> — tag usada para agrupar texto, em uma ideia mais de linha. 
+            -->
+
+            
+            <h2>Elementos Genéricos: &lt;div&gt; &lt;spam&gt; </h2>
+            <div class="product">
+                Características dos Produtos
+            </div>
+            <span>Camiseta</span>   
+            <span>- R$ 99,00</span> 
+
+            <!-- Hipewrlinks - Elemento âncora  <a>
+              Atributos:
+                - Globais  (title, id, class, etc)
+                - href=""    para onde iremos quando clicamos no link?
+                        - url completa
+                        - fragmento
+                        - email
+                        - telefone
+                        - e outros
+                - Download
+                - Target:
+                    _self (padrão)
+                    _blank (abre link com nova tab; não saio da pagina atual)
+            -->
+            <h2>Hiperlinks - Elemento âncora &lt;a&gt;</h2>
+            <h3>Encontre-me</h3>
+            <ul>
+                <li><a href="http://google.com">Google</a> <br></li>
+                <li><a href="mailto: mar70tins@yahoo.com.br">email</a><br></li>
+                <li><a href="" download=""></a> <br></li>
+                <li><a href="http://google.com" target="_blank">Google-target</a><br></li>
+                <li><a href="tel:+5521988525007">Telefone</a></li>
+                       
+            </ul>
+            <p>Saiba mais</p>
+            <ul>
+                <li><a href="#about">Sobre mim</a></li>
+                <li><a href="#history">História</a></li>
+                <li><a href="#works">Trabalhos</a></li>
+            </ul>
+
+            <h1 id="about">Sobre mim</h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis beatae omnis voluptatibus! Natus quisquam quidem possimus repellat non accusantium magni! Aut voluptates blanditiis magnam cupiditate ad dignissimos pariatur officiis vero?
+            Lorem ipsum dolor sit amet consectetur adipisicing.
+
+            <h2 id="history">História</h2>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis sed eaque voluptate in est consequuntur eligendi! Sunt exercitationem fuga quis dolorum illo accusantium quod perferendis! Asperiores nemo natus commodi corrupti?
+            
+            <h2 id="works">trabalhos</h2>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi laudantium assumenda nam libero magnam, fugiat totam veritatis iure consectetur dicta, architecto sint dignissimos esse eius officia! Error ex alias consectetur?
+
+            <!--Conteúdo dos hyperlinks
+                qualquer conteúdo
+                    inclusive aninhado
+            -->
+            <h1>Conteúdo dos hyperlinks</h1>
+            <a href="http://google.com" target="_blank">Ir para o google
+                <h1>Google</h1>
+                <h2>qualquer coisa que eu queira escrever</h2>
+                <img src="https://source.unsplash.com/random" alt="Imagem aleatoria">
+                <br>
+
+                <!--URL (Uniform Resource Locator) e caminho do arquivo
+                    URL usa caminho para encontrar arquivos externos
+                        https://rocketseat.com.br
+
+                    Caminho do Arquivo
+                        onde, no explorador de arquivos, um recurso interno está localizado
+                        - no mesmo diretório (diretorio root ou local)
+                        - em uma pasta acima    ../
+
+                    CAMINHO ABSOLUTO (inclui protocolo e nome de domínio; aponta sempre pro mesmo lugar)
+                    CAMINHO RELATIVO (relativo à página aberta no momento; aponta pra lugares diferentes) 
+                -->
+
+                <a href="index.html" target="_blank">Abrir arquivo interno index</a><br>
+                <a href="https://google.com" target="_blank">Abrir o Google</a><br>
+                
+                <a href="../CURSO EM VIDEO/Ex012/imagens/cup-gimp.png" target="_blank" type="imagem/jpeg">Abrir imagem arquivo interno</a><br>
+                <a href="docs/meu-livro.pdf" target="_blank">Abrir pdf arquivo interno</a><br>
+
+                <a href="https://www.google.com">Caminho Absoluto: ir para o google</a><br>
+                <a href="google.com">Caminho Relativo: google</a>
+
+            
+
+
+            </a>
+
+
+    </body>
+
+</html>
+
+

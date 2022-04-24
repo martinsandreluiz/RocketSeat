@@ -1,0 +1,36 @@
+<!-- Estilizando HTML com CSS:
+
+- CSS inline : linha 29 (dentro da tag escrevo style="property":value inline)
+- CSS interna: linha 16-24   (tag style com seletores e declaração dentro de <head>)
+- CSS externa: linha 15   (tag link que direciona para um arquivo CSS)
+- CSS externa: @import url (mais lenta que a anterior) -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        p {
+            color: darkmagenta;
+        }
+        strong {
+            color:darkorange;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<!-- Adicionando CSS inline -->
+<body>
+    <h1 style="color: red; font-size: 50px;">Título <strong style="color:green;">inicial</strong></h1>
+    <p>CSS significa Cascading Style Sheets e <strong>não é uma linguagem de programação</strong></p>
+    <h2>Capítulo 1 - <em>Introdução</em></h2>
+    <h3>Estilizando agora com <em id="import">@import</em> no CSS</h3>
+
+    
+</body>
+</html>

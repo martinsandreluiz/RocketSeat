@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Palette+Mosaic&family=Roboto:wght@400;700&display=swap');
+
+h2 {
+    color: darkblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+em {
+    color: pink;
+    font-size: 0.8em;
+}
+h3 {
+    font-family: 'Palette Mosaic', cursive;
+    color: deepskyblue;
+}
+#import{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+}
+
+/* Color Theme Swatches in Hex */
+.My-Color-Theme-1-hex { color: #DBB9F5; }
+.My-Color-Theme-2-hex { color: #C389F5; }
+.My-Color-Theme-3-hex { color: #BAE9EE; }
+.My-Color-Theme-4-hex { color: #D9FFE6; }
+.My-Color-Theme-5-hex { color: #F2B3F4; }
+
+/* Color Theme Swatches in RGBA */
+.My-Color-Theme-1-rgba { color: rgba(219, 185, 245, 1); }
+.My-Color-Theme-2-rgba { color: rgba(195, 137, 245, 1); }
+.My-Color-Theme-3-rgba { color: rgba(186, 233, 238, 1); }
+.My-Color-Theme-4-rgba { color: rgba(217, 255, 230, 1); }
+.My-Color-Theme-5-rgba { color: rgba(242, 179, 244, 1); }
+
+/* Color Theme Swatches in HSLA */
+.My-Color-Theme-1-hsla { color: hsla(274, 75, 84, 1); }
+.My-Color-Theme-2-hsla { color: hsla(272, 84, 74, 1); }
+.My-Color-Theme-3-hsla { color: hsla(185, 60, 83, 1); }
+.My-Color-Theme-4-hsla { color: hsla(140, 100, 92, 1); }
+.My-Color-Theme-5-hsla { color: hsla(298, 74, 82, 1); }
